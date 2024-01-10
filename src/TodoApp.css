@@ -1,0 +1,48 @@
+
+li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #e0f7fa;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
+
+.list-container {
+  max-width: 600px; 
+  margin: auto; 
+}
+
+.task-input {
+  max-width: 600px; 
+  margin: auto; 
+}
+
+.add-button {
+  text-align-last: Right!important;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
